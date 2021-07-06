@@ -1,0 +1,119 @@
+
+
+/*
+1.- Position
+2.- Box Model
+3.- Typo
+4.- Visuales
+5.-Other
+*/
+
+:root{
+    --pink: #F50087;
+    --hard-blue: #192361;
+    --soft-blue: #618FBE;
+    --elgray: #B5B7BA;
+    --black: 000000
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+}
+.header--btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+   
+}
+.header--btn-container--btnburger{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+
+}
+.header--btn-container--btnProfile{
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.header--Logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+
+.welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 67px;
+
+}
+
+.welcome--name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.welcome--ask{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--elgray);
+
+}
+.search{
+    width: 100%;
+    height: 41px;
+    background-color: violet;
+    margin-bottom: 44px;
+}
+
+.recomendation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.recomendation--container{
+    width: 140px;
+    height: 199px;
+}
+.recomendation--container--image--img{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+.recomendation--container--image--img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.recomendation--container--txts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+.recomendation--container--txts--title{
+    font-size: 12px;
+    
+}
+.recomendation--container--txts--type{
+    font-size: 12px;
+    color: var(--elgray);
+}
