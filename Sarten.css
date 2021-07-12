@@ -1,0 +1,156 @@
+/*
+1.- Position
+2.- Box Model
+3.- Typo
+4.- Visuales
+5.-Other
+*/
+
+:root{
+    --pink: #F50087;
+    --hard-blue: #192361;
+    --soft-blue: #618FBE;
+    --elgray: #B5B7BA;
+    --black: 000000
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+}
+.header--btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+   
+}
+.header--btn-container--btnburger{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+
+}
+.header--btn-container--btnProfile{
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+}
+.header--Logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -7px;
+}
+
+
+.banner{
+    width: 100%;
+    height: 343px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Welcome */
+.welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 31px ;
+
+
+}
+
+.welcome--name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.welcome--ask{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--elgray);
+
+}
+/* welcome end */
+
+/* search */
+.search{
+    width: 100%;
+    height: 41px;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.search__input{
+    width: 263px;
+    height: 39px;
+    border: 2px solid #618FBE;
+    text-align: center;
+    border-radius: 16px 0px 0px 16px;
+}
+.search__btn{
+    background-color: var(--pink);
+    width: 49px;
+    height: 39px;
+    border-radius: 0px 16px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search__btn__img{
+    width: 15px;
+    height: 15px;
+}
+/* Search end */
+
+/* footer */
+.menu{
+    background-color: var(--soft-blue);
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__iconsConatiner{
+    display: flex;
+    justify-content: center;
+
+}
+.menu__iconsConatiner__left{
+    width: 108px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__iconsConatiner__left__btn__img{
+    width: 38px;
+    height: 37px;
+}
+.menu__iconsConatiner__rigth{
+    width: 108px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu__iconsConatiner__center__btn__img{
+    width: 38px;
+    height: 37px;
+}
+.menu__iconsConatiner__center{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* footer */

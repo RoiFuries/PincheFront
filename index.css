@@ -1,0 +1,86 @@
+
+
+/*
+1.- Position
+2.- Box Model
+3.- Typo
+4.- Visuales
+5.-Other
+*/
+
+:root{
+    --pink: #F50087;
+    --hard-blue: #192361;
+    --soft-blue: #618FBE;
+    --elgray: #B5B7BA;
+    --black: 000000
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #F50087;
+  
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chiff{
+    width: 100%;
+    height: calc(100vh - 180px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagesLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagesLinks__btn{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.pagesLinks__btn__link{
+    text-decoration: none;
+    color: #618FBE;
+    
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #DEB82C;
+}
